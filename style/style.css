@@ -1,0 +1,60 @@
+/* boilerplate code */
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-size: 1.3rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+
+.row{
+    display: flex;
+    gap: 50px;
+}
+
+.col{
+    width: 100%;
+}
+
+.hero {
+    background-color: #23424A;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.hero__text {
+    width: 60%;
+}
+
+.hero p {
+    margin-bottom: 3em;
+}
+
+.hero__btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 900;
+    background-color: #38CFD9;
+    color: #23424A;
+    padding: .75em 2em;
+    border-radius: 100px;
+}
+
+.hero__btn:hover,
+.hero__btn:focus {
+    opacity: .75;
+}
